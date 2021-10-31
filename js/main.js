@@ -33,8 +33,8 @@ jQuery(document).ready(function($) {
             $("header").removeClass("background-header");
         }
     });
-    if ($('.owl-clients').length) {
-        $('.owl-clients').owlCarousel({
+    if ($('.owl-marca').length) {
+        $('.owl-marca').owlCarousel({
             loop: true,
             nav: false,
             dots: true,
@@ -58,36 +58,6 @@ jQuery(document).ready(function($) {
                 },
                 992: {
                     items: 5,
-                    margin: 30
-                }
-            }
-        });
-    }
-    if ($('.owl-testimonials').length) {
-        $('.owl-testimonials').owlCarousel({
-            loop: true,
-            nav: false,
-            dots: true,
-            items: 1,
-            margin: 30,
-            autoplay: false,
-            smartSpeed: 700,
-            autoplayTimeout: 6000,
-            responsive: {
-                0: {
-                    items: 1,
-                    margin: 0
-                },
-                460: {
-                    items: 1,
-                    margin: 0
-                },
-                576: {
-                    items: 2,
-                    margin: 20
-                },
-                992: {
-                    items: 2,
                     margin: 30
                 }
             }
@@ -134,7 +104,6 @@ jQuery(document).ready(function($) {
         dots: true,
         pauseOnDotsHover: true,
         cssEase: 'linear',
-        // fade:true,
         draggable: false,
         prevArrow: '<button class="PrevArrow"></button>',
         nextArrow: '<button class="NextArrow"></button>',
@@ -152,6 +121,7 @@ jQuery(document).ready(function($) {
         })
     });
 
+    //Dando formato al acordeón utilizado en la página de contacto
     var $grid = $(".grid").isotope({
         itemSelector: ".all",
         percentPosition: true,

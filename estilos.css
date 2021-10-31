@@ -844,54 +844,7 @@ header .navbar {
 }
 
 
-/* Services */
-
-.services {
-    background-image: url(../images/services-bg.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 100px 0px;
-}
-
-.services .service-item {
-    text-align: center;
-}
-
-.services .service-item .icon {
-    background-color: #f7f7f7;
-    padding: 40px;
-}
-
-.services .service-item .icon i {
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    text-align: center;
-    line-height: 100px;
-    background-color: #f33f3f;
-    color: #fff;
-    font-size: 32px;
-}
-
-.services .service-item .down-content {
-    background-color: #fff;
-    padding: 40px 30px;
-}
-
-.services .service-item .down-content h4 {
-    font-size: 17px;
-    color: #1a6692;
-    margin-bottom: 20px;
-}
-
-.services .service-item .down-content p {
-    margin-bottom: 25px;
-}
-
-
-/* Clients */
+/* Marcas */
 
 .nuestr_brand {
     margin-top: 100px;
@@ -991,6 +944,9 @@ header .navbar {
     background-color: #121212;
     color: #fff;
 }
+
+
+/*Acordeon en contactos*/
 
 .accordion {
     margin-left: 30px;

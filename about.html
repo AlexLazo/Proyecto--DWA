@@ -226,7 +226,7 @@
                 <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/team_06.jpg" alt="">
+                            <img src="images/team_06.jpg" alt="">
                             <div class="hover-effect">
                                 <div class="hover-content">
                                     <ul class="social-icons">
@@ -248,51 +248,7 @@
             </div>
         </div>
     </div>
-
-
-    <div class="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="service-item">
-                        <div class="icon">
-                            <i class="fa fa-gear"></i>
-                        </div>
-                        <div class="down-content">
-                            <h4>Product Management</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia quaerat.</p>
-                            <a href="#" class="filled-button">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-item">
-                        <div class="icon">
-                            <i class="fa fa-gear"></i>
-                        </div>
-                        <div class="down-content">
-                            <h4>Customer Relations</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia quaerat.</p>
-                            <a href="#" class="filled-button">Details</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-item">
-                        <div class="icon">
-                            <i class="fa fa-gear"></i>
-                        </div>
-                        <div class="down-content">
-                            <h4>Global Collection</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia quaerat.</p>
-                            <a href="#" class="filled-button">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <!--Nuestras marcas-->
 
     <div class="nuestr_brand">
         <div class="container">
@@ -303,7 +259,7 @@
                     </div>
                 </div>
                 <div class="col-md-12">
-                    <div class="owl-clients owl-carousel">
+                    <div class="owl-marca owl-carousel">
                         <div class="marca-items">
                             <img src="images/marca1.png" alt="1">
                         </div>
@@ -324,7 +280,16 @@
                             <img src="images/marca5.png" alt="5">
                         </div>
                         <div class="marca-items">
-                            <img src="images/marca6.png" alt="5">
+                            <img src="images/marca6.png" alt="6">
+                        </div>
+                        <div class="marca-items">
+                            <img src="images/marca7.png" alt="7">
+                        </div>
+                        <div class="marca-items">
+                            <img src="images/marca8.png" alt="8">
+                        </div>
+                        <div class="marca-items">
+                            <img src="images/marca9.png" alt="9">
                         </div>
                     </div>
                 </div>
@@ -405,11 +370,12 @@
     <script src="js/accordions.js"></script>
 
     <script language="text/Javascript">
-        cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
-        function clearField(t) { //declaring the array outside of the
-            if (!cleared[t.id]) { // function makes it static and global
-                cleared[t.id] = 1; // you could use true and false, but that's more typing
-                t.value = ''; // with more chance of typos
+        cleared[0] = cleared[1] = cleared[2] = 0;
+
+        function clearField(t) {
+            if (!cleared[t.id]) {
+                cleared[t.id] = 1;
+                t.value = '';
                 t.style.color = '#fff';
             }
         }
