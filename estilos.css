@@ -893,19 +893,19 @@ header .navbar {
 
 /* Clients */
 
-.happy-clients {
+.nuestr_brand {
     margin-top: 100px;
     margin-bottom: 40px;
 }
 
-.happy-clients .client-item img {
+.nuestr_brand .marca-items img {
     max-width: 100%;
     overflow: hidden;
     transition: all .3s;
     cursor: pointer;
 }
 
-.happy-clients .client-item img:hover {
+.nuestr_brand .marca-items img:hover {
     opacity: 0.8;
 }
 
