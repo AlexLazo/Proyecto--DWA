@@ -925,7 +925,7 @@ header .navbar {
     border: 1px solid #eee;
 }
 
-.contact-form button.filled-button {
+.contact-form button.btn {
     background-color: #f33f3f;
     color: #fff;
     font-size: 14px;
@@ -940,7 +940,7 @@ header .navbar {
     cursor: pointer;
 }
 
-.contact-form button.filled-button:hover {
+.contact-form button.btn:hover {
     background-color: #121212;
     color: #fff;
 }
