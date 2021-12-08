@@ -52,13 +52,23 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.html">Contacto</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="cart.html" class="nav-link navbar-link-2 waves-effect">
-                                    <span class="badge badge-pill red">1</span>
-                                    <i class="fas fa-shopping-cart pl-0"></i>
-                                </a>
-                            </li>
                     </ul>
+                    <div class="cart">
+                        <button type="button" id="cart-btn">
+                            <i class = "fas fa-shopping-cart"></i>
+                            <span id = "cart-count-info"></span>
+                        </button>
+
+                        <div class="cart-container">
+                            <div class="cart-list">
+                            </div>
+
+                            <div class="cart-total">
+                                <h3>Total: $</h3>
+                                <span id="cart-total-value"></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -116,7 +126,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2>Our Team Members</h2>
+                        <h2>Nuestro Equipo</h2>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -134,9 +144,9 @@
                             </div>
                         </div>
                         <div class="down-content">
-                            <h4>Johnny William</h4>
-                            <span>CO-Founder</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+                            <h4>Brian Lazo</h4>
+                            <span>Co-Fundador</span>
+                            <p>Co-Fundador y diseñador gráfico para la empresa</p>
                         </div>
                     </div>
                 </div>
@@ -155,9 +165,9 @@
                             </div>
                         </div>
                         <div class="down-content">
-                            <h4>Karry Pitcher</h4>
-                            <span>Product Expert</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+                            <h4>Heberth Grimaldi</h4>
+                            <span>Experto en Productos</span>
+                            <p>Es el analista de competencia y de productos de la empresa</p>
                         </div>
                     </div>
                 </div>
@@ -176,72 +186,9 @@
                             </div>
                         </div>
                         <div class="down-content">
-                            <h4>Michael Soft</h4>
-                            <span>Chief Marketing</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="images/team_04.jpg" alt="">
-                            <div class="hover-effect">
-                                <div class="hover-content">
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="down-content">
-                            <h4>Mary Cool</h4>
-                            <span>Product Specialist</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="images/team_05.jpg" alt="">
-                            <div class="hover-effect">
-                                <div class="hover-content">
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="down-content">
-                            <h4>George Walker</h4>
-                            <span>Product Photographer</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="images/team_06.jpg" alt="">
-                            <div class="hover-effect">
-                                <div class="hover-content">
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="down-content">
-                            <h4>Kate Town</h4>
-                            <span>General Manager</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+                            <h4>Eduardo Mejía</h4>
+                            <span>Jefe de Marketing</span>
+                            <p>Jefe interino en el área de marketing y principal analista de Marketing.</p>
                         </div>
                     </div>
                 </div>
@@ -299,87 +246,88 @@
 
 
     <!--Footer+-->
-    <div class="container-fluid mt-5">
-        <div class="card mx-5">
-            <div class="row mb-4 ">
-                <div class="col-md-4 col-sm-11 col-xs-11">
-                    <div class="footer-text pull-left">
-                        <div class="d-flex">
-                            <h1 class="font-weight-bold mr-2 px-3" style="color:#16151a; background-color:#957bda"> T </h1>
-                            <h1 style="color: #957bda">otal Look</h1>
+    <!--Footer+-->
+    <footer class="container-fluid bg-grey py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <div class="logo-part">
+                                <img src="images/Total-Look.png" class="logo total look">
+                                <p>Somos una pequeña empresa enfocada en la venta de ropa para dama, caballero y niños, nos enfoncamos en ofrecer lo mejor a nuestros clientes.
+
+                                </p>
+                            </div>
                         </div>
-                        <p class="card-text">Somos una pequeña empresa enfocada en la venta de ropa para dama, caballero y niños, nos enfoncamos en ofrecer lo mejor a nuestros clientes.</p>
-                        <div class="social mt-2 mb-3"> <i class="fa fa-facebook-official fa-lg"></i> <i class="fa fa-instagram fa-lg"></i> <i class="fa fa-twitter fa-lg"></i> <i class="fa fa-linkedin-square fa-lg"></i> <i class="fa fa-facebook"></i> </div>
+                        <div class=" col-md-6 px-4 ">
+                            <h6>Sobre Nosotros</h6>
+                            <a href="# " class="btn-footer "> Más Info</a><br>
+                            <a href="# " class="btn-footer "> Contáctanos</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-1 col-xs-1 mb-2"></div>
-                <div class="col-md-2 col-sm-4 col-xs-4">
-                    <h5 class="heading">Caballero</h5>
-                    <ul>
-                        <li>Deportiva</li>
-                        <li>Casual</li>
-                        <li>Sacos</li>
-                        <li>Ropa interior</li>
-                    </ul>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-4">
-                    <h5 class="heading">Damas</h5>
-                    <ul class="card-text">
-                        <li>Alta costura</li>
-                        <li>Casual</li>
-                        <li>Deportiva</li>
-                        <li>Ropa interior</li>
-                    </ul>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-4">
-                    <h5 class="heading">Niños</h5>
-                    <ul class="card-text">
-                        <li>Deportiva</li>
-                        <li>Casual</li>
-                        <li>Informal</li>
-                        <li>Escolar</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="divider mb-4"> </div>
-            <div class="row" style="font-size:10px;">
-                <div class="col-md-6 col-sm-6 col-xs-6">
-                    <div class="pull-left">
-                        <p><i class="fa fa-copyright"></i> Total Look </p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-xs-6">
-                    <div class="pull-right mr-4">
-                        <div>Ing. en Desarrollo de Software</div>
+                <div class="col-md-6 ">
+                    <div class="row ">
+                        <div class="col-md-6 px-4 ">
+                            <h6>Menú</h6>
+                            <div class="row ">
+                                <div class="col-md-6 ">
+                                    <ul>
+                                        <li> <a href="index.html"> Home</a> </li>
+                                        <li> <a href="products.html"> Productos</a> </li>
+                                        <li> <a href="about.html "> Sobre Nosotros</a> </li>
+                                        <li> <a href="contact.html"> Contacto</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <h6> Nuestras redes sociales</h6>
+                            <div class="social ">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f icon"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-twitter icon"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-instagram icon"></i></a></li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-tiktok icon"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        </div>
+        <!-- Bootstrap JavaScript -->
+        <script src="bootstrap-4.6.1-dist/jquery/jquery.min.js"></script>
+        <script src="bootstrap-4.6.1-dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Bootstrap JavaScript -->
-    <script src="bootstrap-4.6.1-dist/jquery/jquery.min.js"></script>
-    <script src="bootstrap-4.6.1-dist/js/bootstrap.bundle.min.js"></script>
 
+        <!-- SCripts adicionales -->
+        <script src="js/main.js"></script>
+        <script src="js/owl.js"></script>
+        <script src="js/slick.js"></script>
+        <script src="js/isotope.js"></script>
+        <script src="js/accordions.js"></script>
 
-    <!-- SCripts adicionales -->
-    <script src="js/main.js"></script>
-    <script src="js/owl.js"></script>
-    <script src="js/slick.js"></script>
-    <script src="js/isotope.js"></script>
-    <script src="js/accordions.js"></script>
+        <script language="text/Javascript">
+            cleared[0] = cleared[1] = cleared[2] = 0;
 
-    <script language="text/Javascript">
-        cleared[0] = cleared[1] = cleared[2] = 0;
-
-        function clearField(t) {
-            if (!cleared[t.id]) {
-                cleared[t.id] = 1;
-                t.value = '';
-                t.style.color = '#fff';
+            function clearField(t) {
+                if (!cleared[t.id]) {
+                    cleared[t.id] = 1;
+                    t.value = '';
+                    t.style.color = '#fff';
+                }
             }
-        }
-    </script>
+        </script>
 
 </body>
 
