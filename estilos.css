@@ -1381,7 +1381,7 @@ a:hover {
 }
 
 .add-to-cart-btn {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -1477,6 +1477,14 @@ a:hover {
     }
     .btns button:first-child {
         margin-right: 0.4rem;
+    }
+    .product-img {
+        background: var(--ghost-white);
+        padding: 3rem 0;
+        height: 500px;
+        width: 490px;
+        overflow: hidden;
+        position: relative;
     }
 }
 

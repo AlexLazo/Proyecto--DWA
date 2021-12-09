@@ -1,9 +1,6 @@
 jQuery(document).ready(function($) {
 
-
     "use strict";
-
-
 
     $(function() {
         $("#tabs").tabs();
@@ -20,7 +17,7 @@ jQuery(document).ready(function($) {
         }, 300);
     });
 
-    ///Animación para el cambio de color del header al hacer scroll
+    ///Animación para el cambio de color del navbar al hacer scroll
 
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
@@ -177,10 +174,6 @@ function eventListeners() {
         loadJSON();
         loadCart();
     });
-    // toggle navbar when toggle button is clicked
-    document.querySelector('.navbar-toggler').addEventListener('click', () => {
-        document.querySelector('.navbar-collapse').classList.toggle('show-navbar');
-    });
 
     // mostrar/ocultar contenido del carritor
     document.getElementById('cart-btn').addEventListener('click', () => {
@@ -211,7 +204,7 @@ function loadJSON() {
                 html += `
                 <div class = "product-item">
                     <div class = "product-img">
-                        <img src = "${product.imgSrc}" alt = "product image">
+                        <img src = "${product.imgSrc}" alt = "Imágenes del producto">
                         <button type = "button" class = "add-to-cart-btn">
                             <i class = "fas fa-shopping-cart"></i>Agregar al carrito
                         </button>
@@ -238,7 +231,7 @@ function purchaseProduct(e) {
     }
 }
 
-// get product info after add to cart button click
+// Obtener la info del producto antes de agregarlo al carrito
 function getProductInfo(product) {
     let productInfo = {
         id: cartItemID,
@@ -280,10 +273,10 @@ function saveProductInStorage(item) {
     updateCartInfo();
 }
 
-// get all the products info if there is any in the local storage
+//Obtener la info de todos los productos si están dentro del almacenamiento local
 function getProductFromStorage() {
     return localStorage.getItem('products') ? JSON.parse(localStorage.getItem('products')) : [];
-    // returns empty array if there isn't any product info
+    // devuelve un array vacío si no hay productos
 }
 
 // cargar los productos del carrito
@@ -298,17 +291,17 @@ function loadCart() {
     }
     products.forEach(product => addToCartList(product));
 
-    // calculate and update UI of cart info 
+    //Calcula y actualiza la información del carrito
     updateCartInfo();
 }
 
-// calculate total price of the cart and other info
+// Calcula el total del carrito y otra info
 function findCartInfo() {
     let products = getProductFromStorage();
     let total = products.reduce((acc, product) => {
-        let price = parseFloat(product.price.substr(1)); // removing dollar sign
+        let price = parseFloat(product.price.substr(1)); // removiendo el simbolo del dólar
         return acc += price;
-    }, 0); // adding all the prices
+    }, 0); // agregando todos los precios
 
     return {
         total: total.toFixed(2),
@@ -316,21 +309,21 @@ function findCartInfo() {
     }
 }
 
-// delete product from cart list and local storage
+// Eliminando los productos del carrito y del almacenamiento local
 function deleteProduct(e) {
     let cartItem;
     if (e.target.tagName === "BUTTON") {
         cartItem = e.target.parentElement;
-        cartItem.remove(); // this removes from the DOM only
+        cartItem.remove(); // esto solo lo remuve del DOM
     } else if (e.target.tagName === "I") {
         cartItem = e.target.parentElement.parentElement;
-        cartItem.remove(); // this removes from the DOM only
+        cartItem.remove(); // esto solo lo remueve del DOM
     }
 
     let products = getProductFromStorage();
     let updatedProducts = products.filter(product => {
         return product.id !== parseInt(cartItem.dataset.id);
     });
-    localStorage.setItem('products', JSON.stringify(updatedProducts)); // updating the product list after the deletion
+    localStorage.setItem('products', JSON.stringify(updatedProducts)); // Actualizando la lista de productos despues de la eliminación
     updateCartInfo();
 }
