@@ -100,15 +100,15 @@ a.filled-button:hover {
 }
 
 .products-heading {
-    background-image: url(images/productsheading.jpg);
+    background-image: url(../images/productsheading.JPG);
 }
 
 .about-heading {
-    background-image: url(images/aboutheading.jpg);
+    background-image: url(../images/aboutheading.JPG);
 }
 
 .contact-heading {
-    background-image: url(images/contactheading.jpg);
+    background-image: url(../images/contactheading.JPG);
 }
 
 .page-heading {
@@ -353,7 +353,7 @@ header .navbar {
 
 .banner-item-01 {
     padding: 300px 0px;
-    background-image: url(/images/slide01.jpg);
+    background-image: url(/images/slide01.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -361,7 +361,7 @@ header .navbar {
 
 .banner-item-02 {
     padding: 300px 0px;
-    background-image: url(/images/slide02.jpg);
+    background-image: url(../images/slide02.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -369,7 +369,7 @@ header .navbar {
 
 .banner-item-03 {
     padding: 300px 0px;
-    background-image: url(/images/slide03.jpg);
+    background-image: url(../images/slide03.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
