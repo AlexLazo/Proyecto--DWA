@@ -23,99 +23,100 @@
         "imgSrc": "images/Camisetas/3.png"
     },
     {
-        "name": "Bench",
+        "name": "Camisa Nike Golf",
         "category": "Camisas",
-        "price": "15.00",
-        "imgSrc": "images/bench.png"
+        "price": "27.00",
+        "imgSrc": "images/Camisetas/1.png"
     },
     {
-        "name": "Bunk bed",
+        "name": "Camisa Nike",
         "category": "Camisas",
-        "price": "23.75",
-        "imgSrc": "images/bunk-bed.png"
+        "price": "22.50",
+        "imgSrc": "images/Camisetas/2.png"
     },
     {
-        "name": "Cabinet",
+        "name": "Lakers Black Edition",
         "category": "Deportiva",
-        "price": "50.00",
-        "imgSrc": "images/cabinet.png"
+        "price": "45.00",
+        "imgSrc": "images/Camisetas de Basket/1.png"
     },
     {
-        "name": "Card table",
+        "name": "Lakers White Edition",
         "category": "Deportiva",
-        "price": "200.50",
-        "imgSrc": "images/card-table.png"
+        "price": "45.00",
+        "imgSrc": "images/Camisetas de Basket/2.png"
     },
     {
-        "name": "Cushion",
+        "name": "Bulls Shirt",
         "category": "Deportiva",
-        "price": "5.50",
-        "imgSrc": "images/cushion.png"
+        "price": "45.00",
+        "imgSrc": "images/Camisetas de Basket/3.png"
     },
     {
-        "name": "Desk",
+        "name": "Playera Barcelona Football Club",
         "category": "Deportiva",
-        "price": "25.00",
-        "imgSrc": "images/desk.png"
+        "price": "40.00",
+        "imgSrc": "images/Camisetas de Futbol/2.png"
     },
     {
-        "name": "Drawer",
+        "name": " Playera del Bayern Munich Football Club",
         "category": "Deportiva",
         "price": "49.00",
-        "imgSrc": "images/drawer.png"
+        "imgSrc": "images/Camisetas de Futbol/6.png"
     },
     {
-        "name": "Office chair",
+        "name": "Playera del Borussia Dortmund",
         "category": "Deportiva",
-        "price": "60.99",
-        "imgSrc": "images/office-chair.png"
+        "price": "35.00",
+        "imgSrc": "images/Camisetas de Futbol/4.png"
     },
     {
-        "name": "Scissors chair",
+        "name": "Playera del Real Madrid",
         "category": "Deportiva",
-        "price": "69.20",
-        "imgSrc": "images/scissors-chair.png"
+        "price": "45.00",
+        "imgSrc": "images/Camisetas de Futbol/5.png"
     },
     {
-        "name": "Sleeper sofa",
-        "category": "Deportiva",
-        "price": "224.99",
-        "imgSrc": "images/sleeper-sofa.png"
-    },
-    {
-        "name": "Sleigh bed",
+        "name": "Pantalón Nautica",
         "category": "Pantalón",
-        "price": "90.25",
-        "imgSrc": "images/sleigh-bed.png"
+        "price": "45.00",
+        "imgSrc": "images/Pantalones casuales de Mujer/pm1.png"
     },
     {
-        "name": "Sofa bed",
+        "name": "Pantalón Levi's",
         "category": "Pantalón",
-        "price": "99.99",
-        "imgSrc": "images/sofa-bed.png"
+        "price": "55.00",
+        "imgSrc": "images/Pantalones casuales de Hombre/1.1.png"
     },
     {
-        "name": "White armchair",
+        "name": "Pantalón de Mezclilla",
         "category": "Pantalón",
-        "price": "75.80",
-        "imgSrc": "images/white-armchair.png"
+        "price": "35.00",
+        "imgSrc": "images/Pantalones casuales de Mujer/pm3.png"
     },
     {
-        "name": "White sofa",
+        "name": "Pantalón estilo roto",
         "category": "Pantalón",
-        "price": "159.00",
-        "imgSrc": "images/white-sofa.png"
+        "price": "30.00",
+        "imgSrc": "images/Pantalones casuales de Mujer/pm2.png"
     },
     {
-        "name": "Wing chair",
+        "name": "Pantalón Carter",
         "category": "Pantalón",
-        "price": "100.50",
-        "imgSrc": "images/wing-chair.png"
+        "price": "30.50",
+        "imgSrc": "images/Pantalones casuales de Hombre/P1.png"
     },
     {
-        "name": "Wooden armchair",
+        "name": "Pantalón cargo Nautica",
         "category": "Pantalón",
-        "price": "187.45",
-        "imgSrc": "images/wooden-armchair.png"
+        "price": "45.50",
+        "imgSrc": "images/Pantalones casuales de Hombre/p2.png"
+    },
+    {
+        "name": "Pantalón Carter",
+        "category": "Pantalón",
+        "price": "31.50",
+        "imgSrc": "images/Pantalones casuales de Hombre/p3.png"
     }
+
 ]
