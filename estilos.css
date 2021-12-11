@@ -960,11 +960,11 @@ a:hover {
 
 .products h2 {
     text-align: center;
-    padding-top: 5%;
+    padding-top: 2%;
     font-size: 2.2rem;
     letter-spacing: 2px;
-    color: var(--granite-gray);
-    margin-bottom: 4rem;
+    color: black;
+    margin-bottom: 2%;
 }
 
 .product-item {
@@ -1478,7 +1478,7 @@ a:hover {
     }
     .product-img {
         height: 500px;
-        width: 400px;
+        width: 430px;
         overflow: hidden;
         position: relative;
     }
@@ -1534,13 +1534,13 @@ a:hover {
             font-size: 3.5rem;
         }
         .product-list {
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(3, 1fr);
         }
         .product-img {
             background: var(--ghost-white);
             padding: 3rem 0;
             height: 400px;
-            width: 252px;
+            width: 350px;
             overflow: hidden;
             position: relative;
         }

@@ -53,13 +53,19 @@
         "imgSrc": "images/Camisetas de Basket/3.png"
     },
     {
-        "name": "Playera Barcelona Football Club",
+        "name": "Milwaukee Bucks Shirt",
+        "category": "Deportiva",
+        "price": "45.00",
+        "imgSrc": "images/Camisetas de Basket/4.png"
+    },
+    {
+        "name": "Playera Barcelona FC",
         "category": "Deportiva",
         "price": "40.00",
         "imgSrc": "images/Camisetas de Futbol/2.png"
     },
     {
-        "name": " Playera del Bayern Munich Football Club",
+        "name": " Playera del Bayern Munich FC",
         "category": "Deportiva",
         "price": "49.00",
         "imgSrc": "images/Camisetas de Futbol/6.png"
@@ -86,7 +92,7 @@
         "name": "Pantalón Levi's",
         "category": "Pantalón",
         "price": "55.00",
-        "imgSrc": "images/Pantalones casuales de Hombre/1.1.png"
+        "imgSrc": "images/Pantalones casuales de hombre/1.1.png"
     },
     {
         "name": "Pantalón de Mezclilla",
@@ -104,19 +110,19 @@
         "name": "Pantalón Carter",
         "category": "Pantalón",
         "price": "30.50",
-        "imgSrc": "images/Pantalones casuales de Hombre/P1.png"
+        "imgSrc": "images/Pantalones casuales de hombre/P1.png"
     },
     {
         "name": "Pantalón cargo Nautica",
         "category": "Pantalón",
         "price": "45.50",
-        "imgSrc": "images/Pantalones casuales de Hombre/p2.png"
+        "imgSrc": "images/Pantalones casuales de hombre/p2.png"
     },
     {
         "name": "Pantalón Carter",
         "category": "Pantalón",
         "price": "31.50",
-        "imgSrc": "images/Pantalones casuales de Hombre/p3.png"
+        "imgSrc": "images/Pantalones casuales de hombre/p3.png"
     }
 
 ]
