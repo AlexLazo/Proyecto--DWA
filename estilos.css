@@ -581,7 +581,7 @@ header .navbar {
 
 footer {
     font-family: 'Signika', sans-serif;
-    color: grey;
+    color: white;
     background: #292929;
 }
 
@@ -600,7 +600,7 @@ footer h6 {
 footer h6:after {
     position: absolute;
     content: "";
-    background: grey;
+    background: white;
     width: 12%;
     height: 1px;
     left: 0;
@@ -619,29 +619,6 @@ footer h6:after {
 
 .btn-footer:hover {
     text-decoration: none;
-}
-
-.form-footer input[type="text"] {
-    border: none;
-    border-radius: 16px 0 0 16px;
-    outline: none;
-    padding-left: 10px;
-}
-
- ::placeholder {
-    font-size: 10px;
-    padding-left: 10px;
-    font-style: italic;
-}
-
-.form-footer input[type="button"] {
-    border: none;
-    background: #232323;
-    margin-left: -5px;
-    color: #fff;
-    outline: none;
-    border-radius: 0 16px 16px 0;
-    padding: 2px 12px;
 }
 
 .social .fa {
@@ -674,13 +651,21 @@ a:hover {
 .logo-part {
     border-right: 1px solid grey;
     height: 100%;
+    padding-right: 20px;
+}
+
+.logo-part p {
+    color: var(--granite-gray);
+    font-size: 15px;
+    text-align: justify;
 }
 
 .logo-part img {
     width: auto;
-    height: 70px;
-    padding: 2px;
-    padding-bottom: 10px;
+    height: 92px;
+    padding: 4px;
+    padding-bottom: 15px;
+    text-align: center;
 }
 
 .social ul {
@@ -828,9 +813,6 @@ a:hover {
 
 
 /*Carrito de Compras*/
-
-
-/* js related class */
 
 
 /*  */
