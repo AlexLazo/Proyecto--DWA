@@ -11,9 +11,9 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 
 $to = "alex.lazo1403@gmail.com";
 $subject = "$m_subject:  $name";
-$body = "Has recibido un nuevo mensaje de tu sitio web.\n\n"."Aquí están los detalles:\n\nNombre: $name\n\n\nE-mail: $email\n\nMotivo: $subject\n\nMensaje: $message";
-$header = "From: $email";
-$header = "Reply-To: $email";	
+$body = "Has recibido un nuevo mensaje de tu sitio web.\n\n"."Aquí están los detalles:\n\nNombre: $name\n\n\nE-mail: $email\n\nMotivo: $m_subject\n\nMensaje: $message";
+$header = "De: $email";
+$header .= "Responder a: $email";	
 
 if(!mail($to, $subject, $body, $header))
   http_response_code(500);
